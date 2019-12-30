@@ -2,7 +2,7 @@
 
 Due to high population density in NY, there is a high demand for ride hailing services such as Uber, Lyft, Yellow Cab, VIA etc. However, majority (>75%) of the yellow cab rides are single passenger trips.
 
-![Image 1](https://github.com/swami84/NYC-Yellow-Cab-Clustering-for-Carpool/blob/master/Images/Passenger%20Count%20per%20Trip%20Distribution.jpg)
+![Image 1](https://github.com/swami84/Let-s-Pool-That-/blob/master/Images/Passenger%20Count%20per%20Trip%20Distribution.jpg)
 
 Passenger Per Trip|Trip Count|Percentage of Trips
 ---|---|---
@@ -24,7 +24,7 @@ While being exclusive, single passenger trips lead to higher cost, carbon emissi
 
 
 
-For best results please see [NBViewer](https://nbviewer.jupyter.org/github/swami84/NYC-Yellow-Cab-Clustering-for-Carpool/blob/master/NYC_Carpool_Clustering%20Analysis.ipynb?flush_cache=true) to see the jupyter notebook. 
+For best results please see [NBViewer](https://nbviewer.jupyter.org/github/swami84/Let-s-Pool-That-/blob/master/NYC_Carpool_Clustering%20Analysis.ipynb?flush_cache=true) to see the jupyter notebook. 
 
 
 Data sources:
@@ -63,7 +63,7 @@ Yellow cab trip data in Manhattan region has been analyzed. One week of the trip
 
 #### Efficiency Definition
 
-![Image 2](https://github.com/swami84/NYC-Yellow-Cab-Clustering-for-Carpool/blob/master/Images/Efficiency%20Equations.PNG)
+![Image 2](https://github.com/swami84/Let-s-Pool-That-/blob/master/Images/Efficiency%20Equations.PNG)
 
 
 ## Cluster - Size - Pickup Distance Correlation
@@ -81,7 +81,7 @@ Yellow cab trip data in Manhattan region has been analyzed. One week of the trip
 - Aggregating rides based on clustering pickup and drop-off locations
 - Features clustered – Pickup (latitude, longitude) and Drop-off (latitude, longitude) 
 
-![Image 3](https://github.com/swami84/NYC-Yellow-Cab-Clustering-for-Carpool/blob/master/Images/Method%201_Pickups%20and%20Dropoff.png)
+![Image 3](https://github.com/swami84/Let-s-Pool-That-/blob/master/Images/Method%201_Pickups%20and%20Dropoff.png)
 
 
 ## Method 2: Clustering Pickup Location and Dropoff Angle and Distance
@@ -90,16 +90,16 @@ Yellow cab trip data in Manhattan region has been analyzed. One week of the trip
 - Lower weightage given to bearing angle and distance to ensure proximity of centroid to requested pickups
 
 <p align="center">
-  <img src="https://github.com/swami84/NYC-Yellow-Cab-Clustering-for-Carpool/blob/master/Images/Method%202_Pickups%20and%20Dropoff.png" />
+  <img src="https://github.com/swami84/Let-s-Pool-That-/blob/master/Images/Method%202_Pickups%20and%20Dropoff.png" />
 </p>
 
 
 
 ## Results: Efficiency vs Method
 
-![Image 5](https://github.com/swami84/NYC-Yellow-Cab-Clustering-for-Carpool/blob/master/Images/Single%20Ride%20Conversion%20Efficiency_Hour.jpg)
+![Image 5](https://github.com/swami84/Let-s-Pool-That-/blob/master/Images/Single%20Ride%20Conversion%20Efficiency_Hour.jpg)
 
-![Image 6](https://github.com/swami84/NYC-Yellow-Cab-Clustering-for-Carpool/blob/master/Images/Overall%20Ride%20Conversion%20Efficiency_Hour.jpg)
+![Image 6](https://github.com/swami84/Let-s-Pool-That-/blob/master/Images/Overall%20Ride%20Conversion%20Efficiency_Hour.jpg)
 
 
 - Method 2 performs better than Method 1 in overall and single ride conversion
@@ -113,7 +113,7 @@ Yellow cab trip data in Manhattan region has been analyzed. One week of the trip
 - Method 2 performs slightly better in the southern neighborhoods
 
 
-![Image 7](https://github.com/swami84/NYC-Yellow-Cab-Clustering-for-Carpool/blob/master/Images/Neighbohood%20Passenger%20Efficiency.png)
+![Image 7](https://github.com/swami84/Let-s-Pool-That-/blob/master/Images/Neighbohood%20Passenger%20Efficiency.png)
 
 <p></p>
 
