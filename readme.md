@@ -20,7 +20,7 @@ While being exclusive, single passenger trips lead to higher cost, carbon emissi
 > - ***Lower Carbon emission***
 > - ***Cost ($) savings for passengers***
 > - ***Lower road traffic congestion***
-> - ***Predict demand for fleet management and scheduling***
+> - ***Demand predicition that can enable efficient fleet management and scheduling***
 
 
 
